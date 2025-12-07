@@ -14,8 +14,8 @@
     .card { background:#fff; padding:20px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.05); }
     .card h3 { margin-top:0; font-size:1.2em; font-weight:600; }
     .card p { margin:10px 0 0 0; line-height:1.4; }
-    .redirect { margin-top:10px; display:inline-block; font-weight:600; color:#0066cc; text-decoration:none; padding:8px 16px; background:#f0f7ff; border-radius:6px; border:1px solid #cce0ff; transition:0.2s; }
-    .redirect:hover { color:#004499; background:#e6f0ff; text-decoration:none; }
+    .redirect { margin-top:10px; display:inline-block; font-weight:600; color:#0066cc; text-decoration:none; padding:8px 16px; background:#f0f7ff; border-radius:6px; border:1px solid #cce0ff; transition:0.2s; box-shadow:0 2px 5px rgba(0,0,0,0.2); }
+    .redirect:hover { color:#004499; background:#e6f0ff; text-decoration:none; transform: translateY(-2px); }
   </style>
 </head>
 <body>
@@ -35,6 +35,7 @@
       <div class="card">
         <h3>Editing Training</h3>
         <p>This section teaches video editing techniques using DaVinci Resolve.</p>
+        <!-- Fixed button: full-tab redirect -->
         <a class="redirect" href="https://sites.google.com/view/clashtheory-dmtrainingportal/editing" target="_top">
           Go to Editing →
         </a>
@@ -43,6 +44,7 @@
       <div class="card">
         <h3>Scripting Training</h3>
         <p>This section teaches video scripting and professional planning.</p>
+        <!-- Fixed button: full-tab redirect -->
         <a class="redirect" href="https://sites.google.com/view/clashtheory-dmtrainingportal/scripting" target="_top">
           Go to Scripting →
         </a>
@@ -51,3 +53,4 @@
   </div>
 </body>
 </html>
+
